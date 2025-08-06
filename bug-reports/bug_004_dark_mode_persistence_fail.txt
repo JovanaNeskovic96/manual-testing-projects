@@ -1,0 +1,22 @@
+Bug ID: BUG_004
+Title: Dark mode preference not remembered after login
+Severity: Medium
+Priority: High
+Environment: Chrome v116, Windows 11
+
+Steps to Reproduce:
+1. Log in
+2. Toggle dark mode ON
+3. Log out
+4. Log back in
+
+Expected Result:
+Dark mode should remain ON after re-login.
+
+Actual Result:
+Dark mode resets to light mode after login.
+
+Status: Open
+
+Notes:
+This affects user experience and consistency. Expected behavior is that the preference is stored in localStorage or user settings.
