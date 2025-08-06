@@ -1,0 +1,22 @@
+Bug ID: BUG_005
+Title: Invalid email format accepted by contact form
+Severity: Medium
+Priority: High
+Environment: Firefox v118, Windows 10
+
+Steps to Reproduce:
+1. Go to the contact form.
+2. Enter "test@invalid" as the email.
+3. Fill in other fields correctly.
+4. Click "Submit".
+
+Expected Result:
+The form should show a validation error for incorrect email format.
+
+Actual Result:
+Form is submitted without any error.
+
+Status: Open
+
+Notes:
+Basic email validation appears to be missing. Needs input pattern check or backend validation.
